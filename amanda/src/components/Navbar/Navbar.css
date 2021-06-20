@@ -8,12 +8,8 @@
     scroll-behavior: smooth;
 }
 
-a{
-    text-transform: uppercase;
-}
-
 .navbar{
-    background: var(--rosa);
+    background: var(--amarelo);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -36,7 +32,7 @@ a{
 }
 
 #navbar__logo{
-    background-color: var(--amarelo);
+    background-color: var(--rosa);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -59,7 +55,7 @@ a{
 }
 
 .navbar__links{
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +95,7 @@ a{
 }
 
 .navbar__links:hover{
-    color: #000;
+    color: #fff;
     transition: all 0.3s ease;
 }
 
@@ -127,7 +123,7 @@ a{
     }
 
     .navbar__menu.active{
-        background: var(--rosa);
+        background: var(--amarelo);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;

@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
         <div className="navbar__container">
-            <a href="#home" id="navbar__logo">LOGO</a>
+            <a href="#" id="navbar__logo">LOGO</a>
             <div className="navbar__toggle" id="mobile-menu" onClick={menuzinho}>
                 <span className="bar"></span>
                 <span className="bar"></span>
@@ -21,16 +21,13 @@ function Navbar() {
             </div>
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="#home" className="navbar__links" id="home-page">Home</a>
+                    <a href="#" className="navbar__links" id="home-page">Home</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#evento" className="navbar__links" id="evento">Evento</a>
+                    <a href="#cronograma" className="navbar__links">Cronograma</a>
                 </li>
                 <li className="navbar__item">
                     <a href="#sobre" className="navbar__links" id="sobre">Sobre</a>
-                </li>
-                <li className="navbar__item">
-                    <a href="#cronograma" className="navbar__links" id="cronograma">Cronograma</a>
                 </li>
                 <li className="navbar__btn">
                     <a href="#cadastrar" className="button" id="cadastro">Inscrever-se</a>

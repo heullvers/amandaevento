@@ -1,0 +1,38 @@
+.sobre{
+    background-color: var(--roxo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.sobre h1{
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-color: #fff;
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.sobre__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.textinho{
+    padding-top: 3rem;
+    width: 300px;
+    margin-left:  2rem;
+}
+
+.sobre-texto{
+    text-align: initial;
+    color: #fff;
+}

@@ -1,11 +1,9 @@
-p{
-    text-transform: uppercase;
+p{   
+    
     font-weight: 500;
 }
 
-h2{
-    text-transform: uppercase;
-}
+
 
 .services{
     background-color: #131313;

@@ -1,14 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
-import Evento from './components/Evento/Evento';
+import Cronograma from './components/Cronograma/Cronograma';
+import Sobre from './components/Sobre/Sobre';
+import Inscricao from './components/Inscricao/Inscricao';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Home></Home>
-      <Evento></Evento>
+      <Cronograma></Cronograma>
+      <Sobre></Sobre>
+      <Inscricao></Inscricao>
     </>
   );
 }

@@ -29,7 +29,7 @@ function Navbar() {
             </div>
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="#" className="navbar__links" onClick={chamada}>Home</a>
+                    <a href="#home" className="navbar__links" onClick={chamada}>Home</a>
                 </li>
                 <li className="navbar__item">
                     <a href="#cronograma" className="navbar__links" onClick={chamada}>Cronograma</a>

@@ -20,6 +20,12 @@
   flex-direction: column;
 }
 
+.error{
+  margin-top: 10px;
+  text-align: start;
+  color: red;
+}
+
 .custom-field {
     position: relative;
     font-size: 14px;
@@ -29,17 +35,17 @@
   }
   
   .custom-field input {
-    border: none;
-    -webkit-appearance: none;
-    -ms-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    border: 2px solid black;
     background: #f2f2f2;
     padding: var(--field-padding);
     border-radius: 3px;
     width: 250px;
     outline: none;
     font-size: 14px;
+  }
+
+  .erroInput input{
+    border: 2px solid red;
   }
   
   .custom-field .placeholder {

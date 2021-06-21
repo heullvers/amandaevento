@@ -8,6 +8,14 @@ import './Navbar.css';
         menuLinks.classList.toggle('active');
     }
 
+    const chamada = () =>{
+        const menu = document.querySelector('#mobile-menu');
+        const menuLinks = document.querySelector('.navbar__menu');
+
+        menu.classList.toggle('is-active');
+        menuLinks.classList.toggle('active');
+    }
+
 
 function Navbar() {
   return (
@@ -21,16 +29,16 @@ function Navbar() {
             </div>
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="#" className="navbar__links" id="home-page">Home</a>
+                    <a href="#" className="navbar__links" onClick={chamada}>Home</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#cronograma" className="navbar__links">Cronograma</a>
+                    <a href="#cronograma" className="navbar__links" onClick={chamada}>Cronograma</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#sobre" className="navbar__links" id="sobre">Sobre</a>
+                    <a href="#sobre" className="navbar__links" onClick={chamada}>Sobre</a>
                 </li>
                 <li className="navbar__btn">
-                    <a href="#cadastrar" className="button" id="cadastro">Inscrever-se</a>
+                    <a href="#inscricao" className="button" onClick={chamada}>Inscrever-se</a>
                 </li>
 
 

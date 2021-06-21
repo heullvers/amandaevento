@@ -3,11 +3,11 @@ import About from '../../images/about.png'
 
 function Sobre() {
   return (
-      <div className="sobre">
+      <div className="sobre" id="sobre">
           <h1>Sobre</h1>
           <div className="sobre__wrapper">
             <div className="imagem">
-              <img src={About} className="amanda flex-item"></img>
+              <img src={About} className="amanda flex-item" alt="foto explicativa da amanda"></img>
             </div>
 
             <div className="textinho">

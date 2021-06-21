@@ -8,7 +8,7 @@ function Home() {
             <h3><p>Seja <br></br><span className="bem">BEM-VINDO</span></p></h3>
         </div>
         <div className="imagem">
-          <img src={Amanda} className="amanda flex-item"></img>
+          <img src={Amanda} className="amanda flex-item" alt="foto da amanda"></img>
         </div>
         
     </div>
